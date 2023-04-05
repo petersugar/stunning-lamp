@@ -1,0 +1,752 @@
+@import url(https://fonts.googleapis.com/css?family=Francois+One|Keania+One);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.container {font-family: 'Anton', sans-serif; text-transform: uppercase;}
+.row {
+font-size: 18px !important;	
+	
+}
+
+.slider2 img
+	
+	{
+		width: 100%; height: auto;
+	}
+
+
+ navbar-nav {
+    width: 100%;
+    text-align: center;
+	margin-left: 10px !important;
+  }
+  
+  
+  
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+	 
+	margin-left: -5px;
+	 
+  }
+  
+  
+  
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+
+.midnav .navbar-nav a {
+	
+	font-size: 18px !important;
+	
+}
+
+.midnav .navbar-nav {
+	
+	
+	text-align: center !important;
+}
+
+.navbar-nav a {
+	font-size: 18px !important;
+	
+}
+	
+	.row product {
+		
+		font-size: 18px !important;
+		
+	}
+	
+	.fa fa-heart a{
+		color: #333 !important;
+		
+	}
+	
+	 .name-txt {
+		 
+		 font-size: 24px !important;
+	 }
+	
+/*.wrap {background:url("https://primesellability.com/bedlam/images/headerbg.png") top repeat-x;}*/
+.header {background-color:#ffffff; padding-top:5px; font-size: 16px !important;}
+.gray {background-color: #484c50;}
+.navbg, .topnav a, .midnav a, .navnxt {background-color:#000;}
+.topnav.cw span { color: #fbce03;}
+.cw, .cw a {color:white !important;}
+.nohover:hover {background-color: #000 !important;}
+/*.cw a:hover, .cw a:focus, label:hover {color:#712557 !important;}
+*/.cg, label {color:#3f3f3f;}
+.cgl {color:#4f4f4f;}
+.ccyan {color:#25c8cf;}
+.clr {clear:both;}
+.topnav, .headertop {line-height:33px; font-size:18px}
+.midnav.navbg {line-height:37px; font-size: 18px;}
+.navbg .navbar-nav {padding: 3px;}
+.search {background:url("https://primesellability.com/bedlam/images/search.png") center right no-repeat #e0e0e0; border-radius: 0;}
+.navnxt {color: #b7b7b7; margin-top: 2px; margin-bottom: 2px;}
+.navbar-header {text-align: center;}
+.headertop {background: url("https://primesellability.com/bedlam/images/headertopbg.gif") top repeat-x; padding-bottom:10px;}
+.headertop .nav > li > a {padding: 0 6px;}
+.nav > li > a:hover, .nav > li > a:focus {background: #fbce03;}
+.navbar-left {padding-left: 0; width: 90%; text-align: center !important;}
+.navnxt p {font-size:18px; clear:both; line-height:0px; color:#727272;}
+.fast, .rated, .range {padding-left:10px; text-align:center;}
+.fast {background:url("https://primesellability.com/bedlam/images/ship.png") 15% center no-repeat;}
+.rated {background:url("https://primesellability.com/bedlam/images/star.png") 15% center no-repeat;}
+.range {background:url("https://primesellability.com/bedlam/images/range.png") 15% center no-repeat;}
+.hero_sctr {background: url("https://primesellability.com/bedlam/images/banner.jpg") center no-repeat; background-size: cover; /*min-height: 203px;*/}
+.hero_sctr a {display: block; float: right; position: relative; right: 10%; top: 100px;}
+.thumbnail a {width:33%; margin:21px auto; text-align:center; display:inline-block;}
+.thumbnail img { max-width:70px; margin-top:15px;}
+.title {font-size:32px; margin-bottom: 0;}
+.price {font-size: 18px; margin-top: 0px; font-weight: 400;}
+.price span {color: red;}
+.bbut {background:black; display:block; padding:10px; text-align: center; margin-left: -15px;}
+.bbut2 {margin-left: inherit; margin-right: -15px;}
+.specs h2 {font-weight: 400; font-size: 18px; border-bottom: 1px solid #000}
+.specs {text-transform: initial; max-height: 322px; overflow: auto}
+.product {margin-top:18px;border:1px solid black;}
+.product .large {text-align:center; margin-bottom:10px;}
+.samed {background:url("https://primesellability.com/bedlam/images/dispatch.png") 2% center no-repeat #0287ff; padding:10px 0 10px 60px;
+line-height:20px; font-size:18px; font-weight:normal;}
+.skull {clear: both; position: absolute; right: -100%; width: 100%; bottom: 0; background:black; height: 66px; line-height: 61px; color: #fbce03; padding-left: 25px; font-size: 18px !important;}
+.skull img {padding-left: 8%}
+.skull div {background: url("") no-repeat top right; position: relative;
+    height: 96px;width: 120px; float: right;top: -29px; right: -2px;}
+.supportbg {background:url("https://primesellability.com/bedlam/images/background-img.jpg") center 95px repeat; padding-bottom: 15px;}
+.supportbg .wegot {background:url("https://primesellability.com/bedlam/images/wegot.png") center top no-repeat; padding:50px 0; text-align: center; font-size: 26px; color: black;}
+.supbrdr img {border: 3px solid #000;}
+.support, .quality, .bestpr, .ukbase {background:no-repeat center left; padding:12px 0 12px 42px; display:block; font-family: "Anton"; font-size:22px !important;}
+.support {background-image:url("https://primesellability.com/bedlam/images/like.png");  width: 28% !important;}
+.quality {background-image:url("https://primesellability.com/bedlam/images/retail.png"); width: 24% !important;}
+.bestpr {background-image:url("https://primesellability.com/bedlam/images/plane.png"); width: 23% !important;}
+.ukbase {background-image:url("https://primesellability.com/bedlam/images/uk.png"); width: 24% !important;}
+.botlog {background: url("https://primesellability.com/bedlam/images/botlogbg.gif") top repeat-x; padding-top: 15px; min-height: 110px; text-align: center; margin: 0 auto;}
+.botlog img { display:inline-block; margin: 0 1.8%; vertical-align: middle; }
+.item-title {margin-top: 10px; margin-bottom: 5px; font-size:18px!important; font-weight:normal; text-align:center;}
+.item-desc {text-align:center; font-size:18px; color:#999}
+.list-unstyled {margin:0; padding:0}
+.list-unstyled li {list-style:none; border-bottom:1px solid #525252; max-width:200px; font-size: 18px; }
+.list-unstyled li.last {border:none; color:#fbce03;}
+.list-unstyled li.last span {color:#fbce03;}
+.list-unstyled li a { display: block; padding: 5px 0; font-size:18px; text-transform: initial; color:#bbb !important;}
+.list-unstyled li a:hover {color:#ccc; text-decoration:none;}
+.list-inline { padding-left: 0; list-style: none;}
+.list-inline > li { display: inline-block;}
+.star {background:url("https://primesellability.com/bedlam/images/stars.png") center no-repeat; padding:22px;}
+.intro {font-size:18px;}
+.footerl {padding:15px 10px; font-size:18px; background-color:#202020;}
+.col-title {font-weight: 400; font-size: 1em;}
+.copy {padding:10px; font-size:10px; color:#999; font-family:sans-serif;}
+.tabbdr {border-color:#ccc;}
+.tabhvr {color:#712557;}
+.tabtxt {color:#5a5a5a;}
+footer {background: black; font-size: 18px !important;}
+footer .prplbg {padding-top:5px; padding-bottom:40px;}
+footer a {
+
+	font-size: 18px !important;
+}
+
+ 
+  
+#LeftPanel td.v4title 
+{
+	background:url(https://primesellability.com/bedlam/shopcat.gif) no-repeat left !important;
+	height:27px;
+	display:block;
+	overflow:hidden;
+	color:#ffffff !important;
+	font-weight:bold;
+	text-align:left;
+	padding:0px 0px 0px 5px !important;
+	margin:0px 0px 0px 0px !important;
+	line-height:26px;
+	width:220px !important;
+}
+
+
+ul.lev1 li a:link,ul.lev1 li a:visited,ul.lev1 li a:active,
+ul.lev2 li a:link,ul.lev2 li a:visited,ul.lev2 li a:active,
+ul.lev3 li a:link,ul.lev3 li a:visited,ul.lev3 li a:active,
+a.all_cats:link,
+a.all_cats:visited,
+a.all_cats:active,
+#LeftPanel td.oc li a:link,
+#LeftPanel td.oc li a:visited,
+#LeftPanel td.oc li a:active
+{
+	display:block;
+	margin:0px 0px 0px 0px;
+	padding-left: 10px;
+	padding-top: 15px !important;
+	
+	color:#fff;
+	font-size:16px;
+	 background:url(https://primesellability.com/bedlam/mousemain.gif);
+	background-position:bottom;
+	 height: 60px !important;
+	font-family: Roboto;
+	font-weight:normal;
+	width: 220px;
+}
+ul.lev2 li a:link,
+ul.lev2 li a:visited,
+ul.lev2 li a:active
+{
+	padding:0px 0px 0px 45px;
+	padding-top: 15px !important;
+	background:url(https://primesellability.com/bedlam/span.gif);
+ 
+}
+ul.lev3 li a:link,
+ul.lev3 li a:visited,
+ul.lev3 li a:active
+{
+	padding:0px 0px 0px 40px;
+
+padding-top: 15px !important;
+
+	 
+}
+/*-------- Parent Category LINKS Styling END --------*/
+
+/*-------- Parent Category Styling- HOVER START --------*/
+
+ 
+
+ul.lev1 li a:hover,ul.lev2 li a:hover,ul.lev3 li a:hover
+a.all_cats:hover,
+#LeftPanel td.oc li a:hover
+{
+	background:url(https://primesellability.com/bedlam/mouseover.gif);
+	background-position:bottom;
+	color:#fff;
+	text-decoration:none;
+		font-weight:normal;
+}
+/*-------- Parent Category Styling- HOVER END --------*/
+
+/*-------- Selected item SPAN style START --------*/
+
+.ul.lev1  a:visited {
+	
+	padding-top: 15px !important;
+	 
+}
+
+#LeftPanel ul.lev1 span,
+#LeftPanel ul.lev2 span,
+#LeftPanel ul.lev3 span  {
+	display:block;
+	margin:0px 0px 0px 0px;
+	padding:18px 0px 0px 10px;
+	text-decoration:none;
+	font:Roboto;
+	color:#fff;
+	font-size:16px;
+	 background:url(https://primesellability.com/bedlam/mouseover.gif);
+	background-position:bottom;
+	line-height:11px;
+	height: 50px !important;
+	width: 220px !important;
+	font-weight:normal;
+	
+}
+#LeftPanel ul.lev2 span
+{
+	background:url(https://primesellability.com/bedlam/span.gif);
+	padding-top: 18px !important;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 22px;
+}
+ 
+
+
+ul.lev1,ul.lev2,ul.lev3,
+ul.lev1 li,ul.lev2 li,ul.lev3 li,
+#LeftPanel td.oc ul,
+#LeftPanel td.oc ul li,
+#LeftPanel td.oc
+{
+	list-style-image:none !important;
+	list-style-type:none !important;
+	padding:0px !important;
+	margin:0px !important;
+	display:block;
+	overflow:hidden;
+	background:url(https://primesellability.com/bedlam/mouseover.gif);
+}
+#LeftPanel table.v4clp{width:220px}
+ span.cnt {
+
+display: none!important;	
+}
+
+.r3_c {
+background:#fff !important;	
+border-radius: 5px !important;
+padding-bottom: 25px !important;
+	
+}
+
+.pagecontainer table:last-child {max-width:1170px; margin:auto;}
+	.stBadge-accent{ display: none; }
+	#glbfooter{margin-top: 0;}
+	.pagewidth table.container tr.first{ display: none; }
+	.pagewidth .fpcc .countClass{font-family:Roboto; color: #000;font-size: 14px;font-stretch:normal; font-weight: 400; }
+	.pagewidth .fpcc .matchClass{ font-family:Roboto;color: #000; font-size: 14px;font-stretch:normal;font-weight: 400; }
+	.pagewidth .fpcc span.keywordClass{ font-family:Roboto;color: #000;font-size: 14px;font-stretch:normal; font-weight: 400; }
+	.pagewidth  td.r3_c{ border-right: 0; border-left: 0; border-bottom: 0; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+	.pagewidth  td.r3_c  .r3_cm   { padding: 0 20px 0 0; margin-top:25px;  margin-left: 17px;}
+	.pagewidth .r3_t{ background: none; float: left; width: 680px; }
+	.pagewidth .r3_t  b{ margin-left: 0; background: none; border: 0; }
+	.pagewidth .r3_t  b i{ margin-right: 0; background: none; border: 0;}
+	.pagewidth #v4-18{ display: none; }
+	.pagewidth #v4-6  span.label{font-family:Roboto;color: #9F9F9F;font-stretch:normal;font-size: 11px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 10px;  }
+	.pagewidth #v4-14  span.label{font-family:Roboto; background: url(https://primesellability.com/bootstrap/images/cultureking-bg-sortby.png) no-repeat left center; color: #000;font-size: 14px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 17px;  }
+	.pagewidth #v4-13  span.label{font-family:Roboto; background: url(https://primesellability.com/bootstrap/images/cultureking-bg-sortby.png) no-repeat left center; color: #000;font-size: 14px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 17px;line-height:40px;}
+	.pagewidth #v4-6 span.pdmt .cur{font-family:Roboto;background:url(https://primesellability.com/bootstrap/images/stfrock-icon-sortby.png) right center no-repeat;color: #000;font-stretch:normal;font-size: 14px; font-weight: 400; display: inline-block; height: 24px; line-height: 24px;padding: 0 15px  0 0px; }
+	.pagewidth #v4-6 span.pdmt .cur#v4-15{ }
+	.pagewidth #v4-6 span.pdmt .cur#v4-9{   }
+	.pagewidth #v4-6 span.pdmt .cur img{ display: none; }
+	.pagewidth .r3_bl{ display: none; }
+	.pagewidth .ctrlbr{ border-bottom: 0; }
+	.pagewidth .ctrlbr #v4-7{ right: 245px;display:none;}
+	.pagewidth .ctrlbr #v4-13{ right: 0;}
+	.pagewidth div.itemseparator{ border: 0; }
+	.pagewidth table.gallery div.ttl a{font-family:Roboto;color: #000; font-size: 14px; font-weight: 600;font-stretch:normal; text-transform: capitalize; padding-left: 0px !important;}
+	.pagewidth table.gallery div.ttl a:hover{color: #000; }
+	.pagewidth .grid td.left{ border-left: 0; padding: 0 0px 0px; }
+	.pagewidth .grid td.gallery table.gallery{
+	border:1px solid #EBEBEB;
+	height: 350px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+background-image: ; 	background-image: url(https://primesellability.com/azmotorspares/gal.jpg);
+}
+	.pagewidth .grid td.gallery table.gallery tr td.details table.fixed tr:first-child{ position: relative; }
+	.pagewidth .grid td.gallery table.gallery tr td.details table.fixed tr{ ffff;}
+	.pagewidth .grid td.gallery {padding-right: 0px; vertical-align: top;}
+	.pagewidth table.gallery .mi {display: inline-block; min-height: 16px; padding: 0 13px; text-align: left; width: 100%; margin-bottom: 5px; margin-top: 10px; }
+	.pagewidth table.gallery .mi div a.ppr{ color: #000;}
+	.pagewidth table.gallery div.ttl { padding-right: 10px !important; min-height:55px;}
+	.pagewidth table.gallery div.subtitle { color: #000E; font-size: 12px; font-weight: 400; margin: 2px 0 8px; padding: 0 13px; text-transform: lowercase; }
+	.pagewidth table.gallery td span.stp{ display: none; }
+	.pagewidth table.gallery div.clearFullDiv .label{ font-size: 11px; color: #000;font-weight:normal;padding:0 0 0 0px;}
+	.pagewidth .details span.ship {color: #000; display:  ; font-size: 11px; font-weight: 400; line-height: 13px; font-stretch:normal;}
+	.pagewidth table.gallery table.fixed div.time2{ padding-left: 0; margin-top: 10px; position: relative;  }
+	.pagewidth table.gallery table.fixed div.time2 span{ float: left; color: #000; font-size: 11px;line-height: 13px;font-weight:normal;padding:0 0 0 0px;}
+	.pagewidth table.gallery table.fixed div.time2 span.label{ left: 0;}
+	.pagewidth td#CentralArea div.dynpg{margin:15px 0 0;}
+	.pagewidth td#CentralArea div.dynpg .pager{margin:0px auto;}
+	/*.pagewidth .ctrlbr{ padding:0px; position: relative;margin:0 0 30px;}
+	.pagewidth .ctrlbr #v4-8{ margin: 0 0 10px; display:none; right: 235px; background: url("https://primesellability.com/bootstrap/images/cultureking-icon-sortdownred.png") no-repeat 95% center; }
+	.pagewidth .ctrlbr #v4-14{  background:#F3F3F3 url("https://primesellability.com/bootstrap/images/adairs-icon-sort-by.png") no-repeat 90% center; margin:0px; display: inline-block; right: 0; padding: 0 30px 0 0;}
+	.pagewidth .ctrlbr #v4-13{  background:#F3F3F3 url("https://primesellability.com/bootstrap/images/adairs-icon-sort-by.png") no-repeat 90% center; margin: 0 0 10px; display: inline-block; right: 0; padding: 0 30px 0 0;min-height:40px;line-height:40px;} */
+	div#v4-3{ border-bottom: 0; }
+	.rs-pview {padding:0;}
+	.pagewidth .rs_box{ border: 0; }
+	.pagewidth .v4stabl{ padding-right: 20px; }
+	.pagewidth div.fpcc { line-height:55px;min-height:55px;padding:0; border-bottom: 1px dotted #9F9F9F;border-top:1px dotted #9F9F9F;}
+	.pagewidth .dynpg .l, .pagewidth .dynpg .r{ display: none; }
+	.pagewidth table.pgbc{ border: 0; background: none; }
+	.pagewidth .dynpg .prev a.disabled{ font-family: Roboto; font-weight: 600;  }
+	.pagewidth .dynpg .prev a.enabled{ font-family: Roboto; font-weight: 600; color: #333; }
+	.pagewidth .dynpg .next a.enabled{ font-family: Roboto; font-weight: 600; color: #333;}
+	.pagewidth .dynpg .next a.disabled{ font-family: Roboto; font-weight: 600; color: #666; display: none;}
+	.pagewidth .dynpg td.pages a.disabled:visited{font-weight: 600; padding: 0 5px;}
+	 
+	.pagewidth td.pages a.enabled {color: #000 !important;  font-weight: 300; font-size: 14px; font-stretch:normal;}
+	.pagewidth td.pages a:hover{background:#F3F3F3;}
+	
+	
+	
+
+#LeftPanel td.v4title font {color:#2f3842;font-size:14px; font-weight:normal; line-height:34px; margin:0px;padding: 0 0 0 0px; font-family: 'Roboto', 'Trebuchet MS', Arial !important;; text-transform:uppercase;}
+#LeftPanel .ttl{display: none;} /* Store home link */
+table.v4acp tr.v4acp_head td.v4title {padding:9px 0px 0px 5px; background: transparent;}
+#LeftPanel .v4vspacer {height: 0px; width: 0px; display: none;}
+#LeftPanel .v4baccent {height: 0px; display: none;}
+#LeftPanel .v4accent {height: 0px; width: 0px; display: none;}
+#LeftPanel .v4hspacer {height: 0px; width: 0px; display: none;}
+
+#LeftPanel {margin: 0 0 0 0px; padding: 0px 0px 0px 10px;} /*Left nav section */
+#LeftPanel .v4acpcont{width:220px; margin-bottom: 20px; position: relative; background:none;} /* This is the wrap around each box, ie, categories,search, pages*/
+div.lcat {width: 220px;}
+#LeftPanel table.v4midBox { margin: 0px 0px 0px 0px; border: none; padding-bottom:11px; background:url(../images/categores-bott-shadow.png) no-repeat left bottom; }/* Titles of all Boxes */
+#LeftPanel td.v4title{height:38px;background: url(../images/icons.png) no-repeat 0 -1154px; position:relative; padding-top: 0px;}/* Top graphic of boxes*/
+#LeftPanel td.v4title h2 { /*background:url(../images/cat-icon.png) no-repeat; */line-height: 38px; padding-left:0px; font-family:  'Roboto', 'Trebuchet MS', Arial !important;font-size:18px;color:#ffffff; text-transform:none; font-weight: normal;}/* Title text of all boxes */
+#LeftPanel .v4acp_mid{}
+#LeftPanel td.v4mid { padding: 2px 0px 2px 0px; background:none; margin-bottom: 20px; width: 220px;} /*background boxes */
+
+/* Style for store pages */
+.v4clp ul li {list-style-type: none; margin: 0px; font-weight: normal; line-height: 27px; height: 27px; display:block; padding-top: 0px;}
+.v4clp ul li:hover{}
+.v4clp ul li a {color: #444; font-family:  'Roboto', 'Trebuchet MS', Arial !important; font-size: 12px; text-decoration: none; margin: 0 0 0 8px; height: 27px; padding: 0px; display: block; float: left; font-weight: normal;}
+.v4clp ul li a:visited {}
+.v4clp ul li a:active {color:#444;}
+.v4clp ul li a:hover {color:#999;}
+.v4clp ul li span {color: #000; font-family:  'Roboto', 'Trebuchet MS', Arial !important; font-size: 16px; text-decoration: none; margin: 0 0 0 8px; height: 27px; padding: 0px; display: block; float: left; font-weight: normal; color:#727272;} /*This is the active link*/
+table.v4clp td ul { margin:0px; padding-left: 0px;}
+table.v4clp td { padding-top:0px;}
+/* END Style for store pages */
+
+/* Top default ebay search */
+table.v4midBox tr.v4acp_mid td.v4mid {padding: 0px; overflow: hidden; color: #9C9C9C; font-size: 13px; font-weight: normal; font-family:  'Roboto', 'Trebuchet MS', Arial !important;}
+table.v4midBox tr.v4acp_mid td.v4mid .v4clp{ width:210px;}
+/*text "in titles & description"*/
+.v4sbox { border:1px solid #9C9C9C;} /*input color*/ 
+/*END Top default ebay search */
+
+/* Start first level */
+ 
+ td.details {
+	padding-left: 15px !important;
+	margin-left: 15px !important;
+	color: #000 !important; 
+	 
+ }
+ul.s_recat li {list-style-type: none; margin: 0px; padding: 0px 0px 0px 0px; width: 220px; font-weight: normal; font-size: 11px; font-family:  'Roboto', 'Trebuchet MS', Arial !important; line-height: 22px; height: 22px;}
+ul.s_recat li a {color: #999; font-size: 11px; background: url('') no-repeat left center; background-position: 2px 0px; padding: 0px 0px 0px 14px;}
+ul.s_recat li a:hover {color: blue; font-size: 14px; font-weight: normal; text-decoration: none; background-position: 3px -21px; padding: 0px 0px 0px 15px;}
+ul.s_recat li span {color: #999; font-weight: normal; font-size: 14px; background: none;  }
+ul.s_recat li span.cnt{color: #999; font-weight: normal; background: none; padding: 0px; font-size: 0.8em;}
+ 
+#LeftPanel .lcat li.morelnk {font-style: normal; margin-left: 20px; margin-top: 2px; margin-bottom: 2px; font-weight: normal;}
+table.v4nl td {color: #727272; padding:10px; font-size: 12px; font-weight: normal; font-family:  'Roboto', 'Trebuchet MS', Arial !important; line-height: 19px;}
+div.link a:link {color: #000; font-size: 11px; font-weight: normal; font-family:  'Roboto', 'Trebuchet MS', Arial !important; font-style: normal; display: none;}  
+div.link a:hover {color: #000; font-size: 11px; text-decoration: underline;}
+ 
+.eb-wrap {width: 100%; margin:0px; padding:0px;}
+  
+.eb-background { background:url() repeat; padding:0px; margin: 0px;  !important; vertical-align: top !important;}
+.eb-content { width: 1186px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;}
+
+ 
+ 
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    .eb-content { width: 100%; }
+}
+
+@media only screen and (max-width: 800px){
+
+.navnxt {
+display: none;	
+	
+}
+ }
+ 
+ 
+ @media only screen and (max-width: 479px){
+	 .LeftPanel {float:left;}
+	 
+	 .TopPromoArea{float:left;}
+	 .CentralArea{float:left;}
+	 .v4stabl{float:left;}
+	.r3_c {float:left;}
+	 }
+ 
+ 
+ 
+  
+ 
+ @media only screen and (max-width: 479px){
+	 .LeftPanel {float:left;}
+	 
+	 .TopPromoArea{float:left;}
+	 .CentralArea{float:left;}
+	 .v4stabl{float:left;}
+	.r3_c {float:left;}
+	 }
+ 
+ 
+   @media (max-width: 670px){
+	.newsletter-container {width:175px;}
+	.pagewidth .grid td.gallery {display:inline-block;width:32%;}
+	.pagewidth table.gallery div.ttl {width:90%;}
+	.pagewidth td.r3_c .r3_cm {margin-left:0;}
+	.pagewidth.store-page {overflow:hidden;}
+	.pagewidth div.fpcc {max-width:96%;}
+}
+@media (max-width: 639px){
+	/*Store*/
+	.main-container-store {
+        display: block;
+    }
+    .main-container-store thead {
+        display: none;
+    }
+    .main-container-store table,
+    .main-container-store tbody,
+    .main-container-store tr,
+    .main-container-store td {
+        display: block;
+    }
+    .main-container-store #LeftPanel {
+        display:none;
+        width:100% !important;
+    }
+    .pagewidth .grid td.gallery {
+        width: auto !important;
+        padding: 0 !important;
+        margin: 0 0 10px;
+        display:block;
+    }
+	.pagewidth #LeftPanel {display:none;}
+	.pagewidth td.r3_c .r3_cm {padding:0px 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr {position:relative;right:unset;top:unset;margin:0 0 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr span.pdmt span {padding:0;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td {display:inline-block;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td.bin-content {float:right;}
+	.pagewidth table.gallery div.ttl{height:auto;}
+	.pagewidth table.gallery .fixed{margin-top:0;}
+	.pagewidth table.gallery td.bin-content{ width: 60%;  }
+}
+
+.banner {text-align:center;}
+.banner img {width:98%; margin:0 auto;}
+.banner{ min-height:368px; max-height:510px; overflow:hidden; position:relative; box-sizing: border-box; white-space: nowrap;}
+.banner > div{ position:absolute; animation:move_slide2 16s infinite; opacity:0; width:100%; margin:0 auto;}
+.banner > div:nth-child(1){ animation-delay: 0; }
+.banner > div:nth-child(2){ animation-delay: 4s; }
+.banner > div:nth-child(3){ animation-delay: 8s; }
+.banner > div:nth-child(4){ animation-delay: 12s; }
+@keyframes move_slide{
+	10%{ opacity:1; }
+	80%{ opacity:1; }
+	90%{ opacity:0 }
+}
+@keyframes move_slide2{
+	25%{opacity:1;}
+	40%{opacity:0;}
+}
+
+ .slider{   /*Instead of height we will use padding*/
+	  /*That helps bring the labels down*/
+}
+
+
+ 
+
+
+	/*Last thing remaining is to add transitions*/
+.slider .large{ }
+.slider .large img{max-width: 100%;
+    height: auto;  }
+
+
+.rw-words{ display: inline-block; min-height:130px;}
+.rw-words-1 span{ position: absolute; opacity: 0; overflow: hidden; padding-right: 20px; -webkit-animation: rotateWord 18s linear infinite 0s; -ms-animation: rotateWord 18s linear infinite 0s; animation: rotateWord 18s linear infinite 0s; }
+.rw-words-1 span:nth-child(2) {  -webkit-animation-delay: 3s; -ms-animation-delay: 3s; animation-delay: 3s; }
+.rw-words-1 span:nth-child(3) {  -webkit-animation-delay: 6s; -ms-animation-delay: 6s; animation-delay: 6s; }
+.rw-words-1 span:nth-child(4) {  -webkit-animation-delay: 9s; -ms-animation-delay: 9s; animation-delay: 9s; }
+.rw-words-1 span:nth-child(5) {  -webkit-animation-delay: 12s; -ms-animation-delay: 12s; animation-delay: 12s; }
+.rw-words-1 span:nth-child(6) {  -webkit-animation-delay: 15s; -ms-animation-delay: 15s; animation-delay: 15s; }
+@-webkit-keyframes rotateWord {
+	0% { opacity: 0; }
+	2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+	17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord { 
+	0% { opacity: 0; }
+	2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+	17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes rotateWord {
+	0% { opacity: 0; }
+	2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+	17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+
+main { min-width: 320px; max-width: 96%; padding: 50px 0; margin: 0 auto; background: #fff;  }
+section { display: none; padding: 20px 0 0; border-top: 1px solid #ddd; min-height:250px; font-family: 'Roboto', sans-serif;}
+main input { display: none;}
+main label { display: inline-block; margin: 0 0 0px; padding: 15px 5px; font-weight: normal; text-align: center; color: #fff; background-color: #000; width:18%; font-size: 18px;}
+main label:before { font-weight: normal; margin-right: 0px;}
+main label[for*='1']:before { content: ''; }
+main label[for*='2']:before { content: ''; }
+main label[for*='3']:before { content: ''; }
+main label[for*='4']:before { content: ''; }
+main label:hover { cursor: pointer;}
+main input:checked + label { background-color: #fbce03; color:#000;}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 { display: block; border: 1px solid #000; padding: 15px; border-radius: 0 1px 1px; box-shadow:0 3px 1px #ddd; text-transform: initial; font-weight: 400;}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.col-sm-10 .nav a, .col-sm-7 .nav a {padding:0 8px;}
+.col-sm-12 .nav a {font-size:12.5px; padding:0 7px}
+.fast, .rated, .range {background-position:0 center}
+.supbrdr:nth-child(2) {border:none;}
+  footer .prplbg {padding-bottom:5px;} 
+  main label {width:22%}
+  main label:nth-child(6) {width:25%}
+
+  
+	/*Store   @media (max-width: 639px){td#LeftPanel {display:none;} */
+	
+	.pagewidth .grid td.gallery {width: auto !important; padding: 0 !important; margin: 0 0 10px; display:block;}
+	.pagewidth td.r3_c .r3_cm {padding:0px 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr {position:relative;right:unset;top:unset;margin:0 0 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr span.pdmt span {padding:0;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td {display:inline-block;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td.bin-content {float:right;}
+  
+}
+
+@media screen and (min-width: 770px) {
+	.bbut2{margin-top: 0px !important;}
+}
+
+@media screen and (min-width: 769px) {
+  .store-col {padding-left:45px;}
+  .three_icon {display: inline-flex;}
+  .navbar-header img {width: auto;}
+  .navbar-nav > li{font-size: 11px;}
+  .support, .quality, .bestpr, .ukbase{font-size: 15px;}
+  .hero_sctr{background-size: cover; min-height: 240px;}
+  .hero_sctr a{right: 5%; top: 70px;}
+  .bbut{margin-right: -15px;}
+  .bbut2{margin-left: -15px; margin-top:5px;}
+  .skull img{width: 130px;}
+  .supbrdr {width: 25%;}
+  .botlog{min-height: 110px; text-align: center !important;}
+  .midnav.navbg.cw{margin-top: 0;}
+  .navbar-nav {
+	margin-left: -15px !important; 
+	  
+  }
+}
+
+@media screen and (min-width:480px) and (max-width: 768px){
+	.three_icon {display: inline-flex;}
+	.navbar-header img {width: 95%;}
+	.navbar-nav > li{font-size: 11px;}
+	.support, .quality, .bestpr, .ukbase{font-size: 15px;}
+	.hero_sctr{background-size: cover; min-height: 155px;}
+	.hero_sctr a{right: 5%; top: 70px;}
+	.skull img{width: 130px;}
+    .supbrdr {width: 49%;}
+    .botlog{min-height: 200px;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 650px) {
+  .banner{ min-height:300px;}
+  main {padding-top: 30px;}
+  main label { font-size: 12px; width: 24%;}
+  main label:before { margin: 0;}
+  .stBadge img {width:auto;}
+  /*by s*/
+  .skull{display: none;}
+  .hero_sctr a{top: 20px;right: 5%;}
+  .hero_sctr{min-height: 85px; margin: 4px 0;}
+  .hero_sctr a img{width: 35%;float: right;}
+  .three_icon{text-align: center;}
+  .three_icon a{padding: 26px 24px !important; float: none !important;}
+  .nav > li {text-align: center;}
+  .name-txt.rgt{text-align: center !important;}
+  main label:nth-child(8) {width:24%; padding:15px 25px;}
+  .supbrdr{margin: 10px; max-width: 45%;}
+  .botlog{height: 500px;}
+  .botlog img {height: 150px; width: 160px; padding: 5px;}
+  .ft{text-align: center;}
+  .pull-right{text-align: center; float: none !important;}
+  .supportbg{background-repeat-y: inherit;}
+  .midnav.navbg {font-size: 15px; line-height: 24px;}
+  /*by s*/
+}
+
+@media screen and (max-width: 420px) {
+	.container > .navbar-header {margin-left: 0;}
+	.three_icon a {padding: 26px 5px !important;}
+	.navbar-left {width: 98%;}
+	.skull {display: none;}
+  .banner{ min-height:170px;}
+  .supbrdr {border:none;}
+  .header {text-align:center; padding:0}
+  .navbar-brand {display:inline-block; float:none; }
+  .navbar-brand > img, .footerl > div:first-child img, .thumbnail > img {width:100%}
+  main label {font-size: 10px; padding:15px 6px; width:24%}
+  main label:nth-child(8) {width:24%; padding:15px 25px;}
+  main section {font-size:12px;}
+  .nav > li {text-align: center;}
+  .navbar-header a img {width: 100%;}
+  .name-txt.rgt{text-align: center !important;}
+  .supbrdr{margin: 10px;}
+  .botlog{height: 450px;}
+  .botlog img {height: 100px; width: 140px; padding: 5px;}
+  .ft{text-align: center;}
+  .hero_sctr a{top: 20px;right: 5%;}
+  .hero_sctr{min-height: 65px; margin: 18px 0 0;}
+  .hero_sctr a img{width: 35%;float: right;}
+  .midnav.navbg {font-size: 15px; line-height: 24px;}
+  .slider .large img {width: 100%}
+  .slider {padding-top: 450px;}
+  
+	
+	.pagecontainer {display: block;}
+    .pagecontainer thead { display: none;}
+    .pagecontainer table, .pagecontainer tbody, .pagecontainer tr, .pagecontainer td {display: block;}
+    .pagewidth .grid td.gallery { width: auto !important; padding: 0 !important; margin: 0 0 10px; display:block;}
+	.pagewidth #LeftPanel {width:100%;}
+	.pagewidth td.r3_c .r3_cm {padding:0px 15px; marging-left:0;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr {position:relative;right:unset;top:unset;margin:0 0 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr span.pdmt span {padding:0;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td {display:inline-block;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td.bin-content {float:right;}
+	
+	
+	table.gallery td.picture div.image {  margin: 23px auto 0; }
+	.pagewidth td#CentralArea span.pdmt{ position: absolute; bottom: 100%; }
+	.pagewidth .cmpBr{ display: none; }
+	.pagewidth td#CentralArea div.v4stabl{ display:none;}
+	.pagewidth .olp-mr{ display: none;}
+	.pagewidth .olp-tl p{ display: none; }
+	.olp-tl, .olp-tr, .olp-bl, .olp-br{ border: 0;}
+	.olp-tl, .olp-bl, .olp-bl p{ background: none;}
+	.olp-ml{ border: 0;}
+	.olp-tl p{ border: 0;display:none;}
+	.ml-pm .olp-cnt {margin:0 0 0 -10px;}
+	.olp-tr, .olp-br, .olp-mr{ background: none; }
+	.olp-bl div{ border: 0; display: none; }
+	.ml-pm .olp-cnt{ border: 1px solid #e5e5e5; padding: 10px; }
+	.pagewidth .dynpg td.pages a.disabled{background:#F3F3F3;font-size: 16px; font-weight: 300;font-stretch:normal; color: #000 !important;  }
+	.pagewidth .pipe{ display: none;}
+	.stBadge img {width:auto;}
+  
+  /*.three_icon {margin-left: 10%;}*/
+}
+/*added by me*/
+
+.col-md-4.col-sm-4.col-xs-12.three_icon {display: inline-flex; text-align: center;}
+.three_icon a {padding:26px 5px; text-align: center; display: inline-block; float:left;  color: #888;}
+.three_icon .fa {font-size: 26px; color: black;}
+.three_icon .fa a {font-size: 26px; color:#333333 !important;}
+.name-txt.lft, .name-txt.rgt {background: black; color: white; margin-left: -15px; margin-right: -15px; text-align: center; font-size: 15px;padding: 10px 0;}
+.name-txt.rgt {text-align: left;}
+.three_icon a { color:#333333 !important;}
