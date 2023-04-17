@@ -1,0 +1,96 @@
+/* red box */
+.topnav .col-xs-12:first-child { /* welcome top left */
+	color: #ffffff;
+}
+.navbar-right .form-group .search { /* search */
+	background:;
+}
+
+.topnav .navbar-nav a { /* mid navigation bar style */
+	color: #FFFFFF;
+}
+
+.midnav .navbar-nav a { /* mid navigation bar style */
+	color: #000;
+	background-image: url(http://primesellability.com/juliesbookshop/navbg.jpg);	  
+}
+.midnav .navbar-nav a:hover, .midnav .navbar-nav a:focus/* mid navigation bar colour style */ {
+	color: #000;
+	background:;
+}
+.fast, .rated, .range { /* under cat nav - 3boxes title. You can style separately(.rated & .range class too). Also check style.css line 18*/
+	color: #000000;	 
+}
+.fast p, .rated p, .range p { /* 3boxes small text */
+	color: #000000 !important;
+}
+.item-title { /* 4boxes (dedicated support, quality, best price, UK based). check style.css line 39 (.item-title) & line 10 (.ccyan) for color and line 40(.item-desc) for small text*/
+	color: #000 !important;
+}
+.item-desc { /* style.css line 40 for 4boxes small text*/
+	color: #000 !important;
+}
+.footer .col-title { /* footer title all */
+	font-size: 16px;
+	color: #FFF!important;
+}
+/*.store-col .col-title { /* footer title  
+	color: #FFF !important;
+}*/
+.list-unstyled li { /* style.css 43 */
+	border-bottom:;
+}
+.list-unstyled li a  { /* footer list links . style.css line 45 & line 6*/
+	color: #FFF;
+}
+.alittle-col .col-title { /* footer 2nd col title*/ 
+	font-size:18px;
+}
+.alittle-col .intro /*about us colour font*/{ 
+	color:#FFF;
+}
+.follow-us-col .col-title { /* footer 2nd col title*/ 
+	font-size:18px;
+}
+.follow-us-col .intro /*feedback scroller font*/ {
+	font-size:12px;
+	color: #FFF;
+}
+.footer1 { /*footer bg*/
+	background-image: url(http://primesellability.com/juliesbookshop/footer.jpg) !important;
+}
+.footerl .col-sm-6:nth-child(2) {
+	color:green !important
+}
+
+/* -------- Left Panels -------- */
+#LeftPanel {width: 220px !important; ; padding-left:8px; padding-top: 0px; float:left;  }
+#LeftPanel .v4acpcont{width: 220px; margin-top: 0px; margin-bottom: 10px; position: relative;} 
+div.lcat {width: 220px !important; }
+
+/* Left Panel heading */
+#LeftPanel .v4title {background:aqua; border: none; height:50px; padding: 0px 0 0px 10px; border-top-left-radius: 0; border-top-right-radius: 0;}
+#LeftPanel .v4title h2 { font-size:14px; color:white; font-weight: normal; text-transform: uppercase; padding: 0 0 5px;}
+#LeftPanel table.v4acpcont { padding-bottom:0; border-radius: 0 0 5px 5px; background:light blue;}
+
+ /* --- Left Panel container - bg bottom --- */
+#LeftPanel tr.v4acp_head { background-color: transparent !important; border: 0px !important; }
+
+/* Left Panel Mid Box */
+#LeftPanel table.v4midBox {border: none;  }
+#LeftPanel table.v4midBox td.v4mid { background-color:none; }
+#LeftPanel table.v4midBox tr.v4acp_mid td.v4mid {background: none; padding: 0 0 15px; background:grey; border-bottom: solid 1px #7f7f7f;} /* --- Bg --- */
+#LeftPanel table.v4midBox tr.v4acp_mid td.v4mid form {padding:15px; display:block !important}
+
+/* #LeftPanel .lcat li, table.v4clp li  {list-style-type: none;  height:35px; line-height:35px; margin:1px 0;   disc outside; } */
+#LeftPanel td.v4mid { background-color: #1e1e1e !important; width: 220px !important; padding:0px !important; margin: 0px !important; }
+#LeftPanel td.v4hspacer, #LeftPanel td.v4accent { display: none !important; }
+
+/* Store categories */
+/* level 1  */
+#LeftPanel ul.lev1 {  list-style-type: none; padding: 0px; margin: 0px; }
+#LeftPanel ul.lev1 li {background:beige; border-bottom: 0px solid #000; width: 220px; padding: 0px; margin: 0px; }
+#LeftPanel ul.lev1 li a {background-color: none;  background:brown; color: #382F2F; display: block; font-size: 14px; padding: 7px 0px 7px 40px; text-decoration: none; }
+#LeftPanel ul.lev1 li a:hover {color: #4f4d4d; text-decoration: none; background:brown; }
+#LeftPanel ul.lev1 li a:active {color: #919191; text-decoration: none; background-image: none; }
+#LeftPanel ul.lev1 li span { background-color: none; color: #919191;  background:beige; display: block; font-size: 14px; padding: 7px 0 7px 40px; text-decoration: none; }
